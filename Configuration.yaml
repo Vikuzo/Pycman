@@ -1,0 +1,30 @@
+FPS: 60
+movement: 1
+colors:
+  black:
+    red: 0
+    green: 0
+    blue: 0
+  blue:
+    red: 0
+    green: 0
+    blue: 255
+directions:
+  right: 'RIGHT'
+  left: 'LEFT'
+  up: 'UP'
+  down: 'DOWN'
+src:
+  images:
+    player:
+      right: 'src/Game_images/PacManRight.gif'
+      left: 'src/Game_images/PacManLeft.gif'
+      up: 'src/Game_images/PacManUp.gif'
+      down: 'src/Game_images/PacManDown.gif'
+  map: 'src/Game_images/Maze/maze.txt'
+window_config:
+  column_number: 49
+  height: 520
+  row_number: 40
+  width: 580
+  window_images_adapter: 3
